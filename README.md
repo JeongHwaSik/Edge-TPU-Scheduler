@@ -34,7 +34,7 @@ However, the Edge TPU does not have a dedicated scheduler, and when multiple app
 
 ### 2-1. Model Training and Compression (e.g. LeNet model for MNIST dataset)
 
-First, implement the LeNet model using TensorFlow and train the model using the MNIST dataset. Since the edge device has limited resources, the resource-intensive training is carried out on a local PC. The trained model is saved in .pb format, and using TensorFlow's TFLiteConverter, the trained model is converted to a .tflite file to ensure that it runs well on the edge device. Additionally, to operate the model on the Edge TPU, quantization needs to be performed. The model is quantized to INT-8, generating the mnist_lenet_quant.tflite file. Follow training/train.ipynb.
+First, implement the LeNet model using TensorFlow and train the model using the MNIST dataset. Since the edge device has limited resources, the resource-intensive training is carried out on a local PC. The trained model is saved in .pb format, and using TensorFlow's TFLiteConverter, the trained model is converted to a .tflite file to ensure that it runs well on the edge device. Additionally, to operate the model on the Edge TPU, quantization needs to be performed. The model is quantized to INT-8, generating the mnist_lenet_quant.tflite file. See training/training_lenet.ipynb.
 
 
 ### 2-2. Edge TPU Co-Compilation
