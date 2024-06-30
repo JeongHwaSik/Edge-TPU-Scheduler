@@ -61,3 +61,35 @@ When multiple clients send requests for deep learning tasks to be executed by th
 
  ## 4. Results
 
+ • Scheduler.py execution with EDF algorithm
+ </br>
+ </br>
+ <img width="770" alt="Screenshot 2024-06-30 at 8 53 43 PM" src="https://github.com/JeongHwaSik/Edge-TPU-Scheduler/assets/99574746/61105e13-f38a-4daa-b705-0df7facfc7be">
+</br>
+</br>
+</br>
+ • First client.py execution with MobileNetV2, period=1000, deadline=500
+ </br>
+ </br>
+ <img width="1422" alt="Screenshot 2024-06-30 at 8 53 57 PM" src="https://github.com/JeongHwaSik/Edge-TPU-Scheduler/assets/99574746/158b80cc-224a-444c-9581-9e8a6e469497">
+ </br>
+ </br>
+ </br>
+ • Second client.py execution with InceptionV2, period=1000, deadline=500
+ </br>
+ </br>
+ <img width="1426" alt="Screenshot 2024-06-30 at 8 54 14 PM" src="https://github.com/JeongHwaSik/Edge-TPU-Scheduler/assets/99574746/7475c053-d473-4e3d-8a5b-21db1b27bf5a">
+ </br>
+ </br>
+  </br>
+ • Third client.py execution with EfficientNet-M, period=1000, deadline=500
+ </br>
+ </br>
+ <img width="1424" alt="Screenshot 2024-06-30 at 8 54 44 PM" src="https://github.com/JeongHwaSik/Edge-TPU-Scheduler/assets/99574746/377f1ed8-ef80-4105-8ed3-b242137b3c68">
+ </br>
+ </br>
+ </br>
+ • Evaluation
+ </br>
+ </br>
+ <img width="770" alt="Screenshot 2024-06-30 at 8 57 43 PM" src="https://github.com/JeongHwaSik/Edge-TPU-Scheduler/assets/99574746/c4d35c01-7e51-4638-98dc-a2624901f660">
